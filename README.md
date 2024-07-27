@@ -1,15 +1,4 @@
-# Webster-2022
-
 ## Complaint Box
-
-### Team Name : [0π](https://github.com/Kitashi14/Webster-2022)
-
-### Team Members Name :
-
-- Sudhir Shukla
-- Rishav Raj
-- Ritik Vaidyasen
-- Amit Kumar Singh
 
 ### Proposed Features :
 
