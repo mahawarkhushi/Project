@@ -1,8 +1,33 @@
-– A multiversal solution to hitches, to put you out of every predicament.
-– The platform provides a healthy interaction with skilled workers honed especially in your problem area.
-– The website comes with highly encrypted authentication, users can register their complaints and workers can
-accept and resolve them.
-– Spearheaded the integration of a robust Rating System, enabling real-time feedback collection and analysis.
-– Features: User Login/Signup, One can add multiple professions, Standard/ Custom Complaints, Add/Delete/Up-
-date complaints, Workers of different professions can select the complaint they want to take, Ratings on complaints
-by the resolved work done on them.
+# Webster-2022
+
+## Complaint Box
+
+### Team Name : [0π](https://github.com/Kitashi14/Webster-2022)
+
+### Team Members Name :
+
+- Sudhir Shukla
+- Rishav Raj
+- Ritik Vaidyasen
+- Amit Kumar Singh
+
+### Proposed Features :
+
+- User Login/ Signup
+- Various user profiles (residents, electrician etc)
+- One can add multiple profession
+- Standard & Custom Complaints
+- Add/Delete/Update complaints
+- Worker of different profession can select the complaint the want to take
+- Ratings on complaints by the resolve work done on them
+
+### Tech Stack :
+
+1. NODE js
+2. Tailwind
+3. HTML
+4. CSS
+5. JavaScript
+6. MongoDB
+7. ReactJS
+8. ExpressJS

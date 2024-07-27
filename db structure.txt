@@ -1,0 +1,103 @@
+user-list{
+    
+    id;
+    username;
+    first-name;
+    last-name (not compulsory);
+    email;
+    isGoogle;
+    password (if not google);
+    address;
+    phoneNumber;
+    age;
+    date-created;
+    location-x;
+    location-y;
+    verified;
+    
+    professions{
+
+        worker-id;
+        worker-profession;
+        worker-rating;
+        worker-score;
+    }
+}
+
+token-list{
+
+    id;
+    user-id;
+    otp;
+    date-created;
+    data-expire;
+}
+
+complain-list{
+
+    id;
+    creator (user-username);
+    title;
+    description;
+    profession;
+    address;
+    phoneNumber;
+    location-x;
+    location-y;
+    date-created;
+    worker-id (null initially);
+    worker-user-name (null initially);
+    accepted-workers{
+
+        worker-id;
+        worker-username;
+        accepted-date;
+    }
+    status (assigned/not-assigned/resolved); 
+    
+    (if resolved) rating;
+    (if resolved) comment;
+    (if resolved) resolved-date;
+
+    (if assigned) assigned-date;
+
+
+}
+
+notification-list{
+
+    id;
+    complain-id;
+    worker-id;
+    worker-username;
+    date-created;
+    read-status;
+    delete-status (optional);
+    type (info/status);
+    (if info) previous-info;
+    (if info) current-info;
+
+    (if status) previous-status;
+    (if status) current-status;
+    
+}
+
+worker-list{
+
+    id;
+    user-username;
+    user-firstname;
+    user-secondname;
+    user-email;
+    user-phoneNumber;
+    user-age;
+    user-address;
+    user-location-x;
+    user-location-y;
+    date-created;
+    profession;
+    rating;
+    TCR;
+    score;
+    acceptedWork;
+}
